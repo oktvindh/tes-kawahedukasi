@@ -29,5 +29,22 @@ INSERT INTO `kawahedukasi` (`id`, `nama`, `kelas`, `nilai`, `jumlah_kehadiran`, 
 
 SELECT id, nama, kelas, nilai, jumlah_kehadiran, status_kelulusan, status_pekerjaan, gaji FROM kawahedukasi;
 SELECT MAX(gaji) FROM kawahedukasi;
++-----------+
+| MAX(gaji) |
++-----------+
+|  10000000 |
++-----------+
+
 SELECT MAX(nilai) AS nilai_tertinggi, MAX(gaji) AS gaji_tertinggi FROM kawahedukasi WHERE kelas = 'BACKEND';
++-----------------+----------------+
+| nilai_tertinggi | gaji_tertinggi |
++-----------------+----------------+
+|             100 |        6500000 |
++-----------------+----------------+
+
 SELECT COUNT(id) FROM kawahedukasi WHERE kelas = 'FRONTEND';
++-----------+
+| COUNT(id) |
++-----------+
+|         6 |
++-----------+
