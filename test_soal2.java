@@ -18,3 +18,15 @@ public class test_soal2 {
 
         }
 }
+
+/*
+index ke 0 adalah Integer dengan data 1
+index ke 1 adalah String dengan data ka
+index ke 2 adalah Integer dengan data 67
+index ke 3 adalah String dengan data wah
+index ke 4 adalah String dengan data 1772
+index ke 5 adalah String dengan data edukasi
+index ke 6 adalah Integer dengan data 7
+index ke 7 adalah Integer dengan data 98
+index ke 8 adalah Integer dengan data -1
+ */

@@ -18,3 +18,16 @@ public class test_soal1 {
         }
     }
 }
+
+/*
+1
+2
+4
+3
+10
+Buzz
+20
+Fizz
+100
+200
+*/
